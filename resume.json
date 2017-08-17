@@ -1,0 +1,25 @@
+{
+  "contact": {
+    "name": "Brian Holland",
+    "email": "brian.holland@mapquest.com",
+    "linkedin": "https://www.linkedin.com/in/brian-holland",
+    "github": "https://github.com/neumaics/"
+  },
+  "resume": {
+    "employment": {
+      "POSeLink": {
+      },
+      "DISH Network": {
+      },
+      "MapQuest": {
+      }
+    },
+    "education": {
+      "Colorado School of Mines": {
+      }
+    },
+    "certificates": {
+
+    }
+  }
+}
