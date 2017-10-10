@@ -1,0 +1,11 @@
+mixin education(degrees, certs)
+  .education-container
+    h2.education-title
+      span Education
+    ul
+      each degree, school in degrees  
+        li= school
+
+    ul
+      each cert in certs
+        li= cert.certification

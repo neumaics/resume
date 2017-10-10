@@ -2,20 +2,7 @@
   text-transform: capitalize;
   font-weight: 400;
 
-  display: flex;
-  align-items: center;
-
-  &> span {
-    background: #fff;
-    margin-right: 15px;
-  }
-
-  &:after {
-    background: black;
-    height: 2px;
-    flex-grow: 1;
-    content: '';
-  }
+  @include dash-title();
 }
 
 .employment-items {

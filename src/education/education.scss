@@ -1,0 +1,6 @@
+.education-title {
+  text-transform: capitalize;
+  font-weight: 400;
+
+  @include dash-title();
+}

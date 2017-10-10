@@ -1,3 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700');
 
 $primary-font: 'Work Sans', sans-sarif;
+
+@mixin dash-title() {
+  display: flex;
+  align-items: center;
+
+  &> span {
+    background: #fff;
+    margin-right: 15px;
+  }
+
+  &:after {
+    background: black;
+    height: 2px;
+    flex-grow: 1;
+    content: '';
+  }
+}
