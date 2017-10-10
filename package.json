@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Brian Holland",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "gulp sass",
+    "sass:watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neumaics/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neumaics/resume/issues"
+  },
+  "homepage": "https://github.com/neumaics/resume#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "node-sass": "^4.5.3",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

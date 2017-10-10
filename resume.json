@@ -1,25 +1,108 @@
 {
+  "name": "Brian Holland",
+  "title": "Developer",
   "contact": {
-    "name": "Brian Holland",
-    "email": "brian.holland@mapquest.com",
+    "email": "brian.holland@neumaics.com",
     "linkedin": "https://www.linkedin.com/in/brian-holland",
     "github": "https://github.com/neumaics/"
   },
-  "resume": {
-    "employment": {
-      "POSeLink": {
-      },
-      "DISH Network": {
-      },
-      "MapQuest": {
-      }
+  "employment": {
+    "MapQuest": {
+      "title": ["Software Engineer"],
+      "location": "Denver, CO",
+      "start": "December 2014",
+      "responsibilities": [
+        "Worked in Scrum and Kanban Agile teams, all which empasized intra-team collaboration.",
+        "Collaborated across teams and internal organizations to design and build efficient applications.",
+        "Helped migrate, maintain, and enhance legacy Java applications.",
+        "Unified several separate manual processes and automated them to deliver software faster--reduced time to deploy from 12 hours to about 5 hours.",
+        "Primary designer and coordinator for a new internal map data API, which was delivered with a full CI/CD pipeline."
+      ],
+      "projects": [{
+        "project": "External MapQuest Search APIs",
+        "tech": ["Scala", "Spark", "ElasticSearch", "Logstash", "JRuby", "NodeJS", "Express", "Jasmine", "Java", "Jenkins"],
+        "description": ""
+      }, {
+        "project": "Interal MapQuest web APIs",
+        "tech": ["JavaScript ES6", "Nodejs", "gulp", "Ruby/Ruby on Rails"],
+        "description": ""
+	    }, {
+        "project": "MapQuest.com rewrite",
+        "tech": ["Scala", "Play", "Javascript", "AngularJS", "CSS/LESS", "Jasmine"],
+        "description": ""
+      }]
     },
-    "education": {
-      "Colorado School of Mines": {
-      }
+    "DISH Network": {
+      "title": ["Analyst/Developer"],
+      "location": "Englewood, CO",
+      "start": "June 2012",
+      "end": "December 2014",
+      "responsibilities": [
+        "Developed enhancements for existing customer management application.",
+        "Documented designs, including maintaining a project and module level wiki.",
+        "Supported software releases, production issues and pilot deployments.",
+        "Designed and delivered prototype applications.",
+        "Helped transition customer care application from a Microsoft to Java/Spring stack."
+      ],
+      "projects": [{
+        "project": "DISH Promo",
+        "tech": ["C#", "WPF", "MVC3", "RESTful APIs", "SOAP services"],
+        "description": "Customer Care Application and API"
+      }, {
+        "project": "Internal Chat/Forum and Agent tools",
+        "tech": ["C#", "WebApi 4", "JavaScript", "jQuery", "Bootstrap3", "CSS", "KnockoutJS", "SignalR/Websockets", "Jasmine"],
+        "description": "For iPad (Safari) and FireFox."
+      }, {
+        "project": "Next Generation Customer Care Application",
+        "tech": ["Java", "Spring MVC", "AngularJS", "CSS", "NoSQL", "MongoDB"],
+        "description": ""
+      }]
     },
-    "certificates": {
-
+    "POSeLink": {
+      "title": ["Programmer", "Intern"],
+      "location": "Englewood, CO",
+      "start": "December 2010",
+      "end": "June 2012",
+      "responsibilities": [],
+      "projects": [{
+        "project": "Restaurant management reports module",
+        "tech": ["VB6", "VB.NET", "C#", "WPF"],
+        "description": ""
+      }]
     }
-  }
+  },
+  "education": {
+    "Colorado School of Mines": {
+      "degree": "BSc Math and Computer Science",
+      "location": "Golden, CO",
+      "date": "May 2012"
+    }
+  },
+  "certificates": [{
+    "certification": "Machine Learning by Stanford University on Coursera",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/ZKJVG95ZA4WU",
+    "date": "January 2016"
+  }],
+  "projects": {
+    "resume": {
+      "repo": "https://github.com/neumaics/resume",
+      "link": "https://resume.neumaics.com",
+      "description": "",
+      "technologies": []
+    },
+    "resono": {
+      "repo": "https://github.com/neumaics/resono",
+      "description": "",
+      "technologies": []
+    },
+    "moneta": {
+      "repo": "https://github.com/neumaics/moneta",
+      "link": "https://moneta.neumaics.com",
+      "description": "",
+      "technologies": []
+    }
+  },
+  "skills": [
+
+  ]
 }

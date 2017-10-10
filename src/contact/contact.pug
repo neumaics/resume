@@ -1,0 +1,15 @@
+mixin contact(methods)
+  -
+    var icons = {
+      github: 'fa-github-alt',
+      email: 'fa-envelope-o',
+      linkedin: 'fa-linkedin',
+      default: 'fa-asterisk'
+    }
+  
+  ul.contact-methods
+    each val, index in methods
+      li.contact-item
+        a(href=val, target='_blank')
+          i.fa(class=icons[index] || icons.default)
+          span= val

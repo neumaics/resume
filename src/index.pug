@@ -1,0 +1,16 @@
+include header/header.pug
+include contact/contact.pug
+include employment/employment.pug
+
+doctype html
+
+html
+  head
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet')
+    link(href='/main.css', rel='stylesheet')
+  body
+    .content
+      .resume-sheet
+        +header(name, title)
+        +contact(contact)
+        +employment(employment)

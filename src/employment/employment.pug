@@ -1,0 +1,27 @@
+mixin employment(history)
+  .employment-container
+    h2.employment-title
+      span Employment
+    each job, employer in history
+      +job-detail(employer, job)
+
+mixin job-detail(employer, job)
+  .employment-section
+    .employment-summary
+      h4= employer
+      h5 #{job.title.join(', ')}
+      span #{job.start} - #{job.end || 'Present'}
+      
+    .employment-detail
+      .employment-projects
+        +projects(job.projects)
+      .employment-responsibilities
+        +responsibilities(job.responsibilities)
+
+mixin projects(projectList)
+  each project in projectList
+    li= project.project
+    
+mixin responsibilities(responsibilityList)
+  each resp in responsibilityList
+    li= resp
