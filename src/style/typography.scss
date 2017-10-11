@@ -3,8 +3,10 @@
 $primary-font: 'Work Sans', sans-sarif;
 
 @mixin dash-title() {
+  -webkit-print-color-adjust: exact;
   display: flex;
   align-items: center;
+  margin: 10px 0;
 
   &> span {
     background: #fff;
