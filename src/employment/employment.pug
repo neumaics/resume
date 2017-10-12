@@ -1,12 +1,12 @@
 mixin employment(history)
   .employment-container
-    h2.employment-title
-      span Employment
+    h2.major-section-title
+      span Experience
     each job, employer in history
       +job-detail(employer, job)
 
 mixin job-detail(employer, job)
-  .employment-section
+  section.employment-section
     .employment-summary
       h4= employer
       h5 #{job.title.join(', ')}
@@ -14,11 +14,11 @@ mixin job-detail(employer, job)
       
     .employment-detail
       .employment-projects
-        +projects(job.projects)
+        +employment-projects(job.projects)
       .employment-responsibilities
         +responsibilities(job.responsibilities)
 
-mixin projects(projectList)
+mixin employment-projects(projectList)
   each project in projectList
     li= project.project
     

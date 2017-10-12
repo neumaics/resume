@@ -1,0 +1,27 @@
+@import '../style/responsive';
+
+.resume-sheet {
+  background-color: white;
+  box-shadow: 0 0.5mm 2mm rgba(0,0,0,.3);
+  margin: 10px;
+  max-width: auto;
+
+  @media #{$xs}, #{$sm} {
+    border: none;
+    padding: 5px;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  @media #{$md}, #{$lg}, #{$xl} {
+    padding: 32px;
+    flex-grow: 1;
+    border: 1px solid #eee;
+    max-width: 48em;
+  }
+
+  @media #{$print} {
+    box-shadow: none;
+    margin: 0;
+  }
+}

@@ -1,7 +1,4 @@
-include header/header.pug
-include contact/contact.pug
-include employment/employment.pug
-include education/education.pug
+include ./resume/resume.pug
 
 doctype html
 
@@ -11,8 +8,4 @@ html
     link(href='/main.css', rel='stylesheet')
   body
     .content
-      .resume-sheet
-        +header(name, title)
-        +contact(contact)
-        +employment(employment)
-        +education(education, certificates)
+      +resume(name, title, contact, employment, education, certificates, projects, skills)

@@ -1,6 +1,10 @@
-.education-title {
-  text-transform: capitalize;
-  font-weight: 400;
+.education-container {
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
-  @include dash-title();
+  p.education-section {
+    margin: 0;
+  }
 }

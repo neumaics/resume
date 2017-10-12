@@ -19,16 +19,16 @@
         "Primary designer and coordinator for a new internal map data API, which was delivered with a full CI/CD pipeline."
       ],
       "projects": [{
-        "project": "External MapQuest Search APIs",
-        "tech": ["Scala", "Spark", "ElasticSearch", "Logstash", "JRuby", "NodeJS", "Express", "Jasmine", "Java", "Jenkins"],
+        "project": "MapQuest Geospatial Search APIs",
+        "tech": ["Scala", "Spark", "ElasticSearch", "Logstash", "JRuby", "Node.js", "Express", "Jasmine", "Java", "Jenkins"],
         "description": ""
       }, {
         "project": "Interal MapQuest web APIs",
-        "tech": ["JavaScript ES6", "Nodejs", "gulp", "Ruby/Ruby on Rails"],
+        "tech": ["JavaScript ES6", "Express", "gulp", "Ruby/Ruby on Rails"],
         "description": ""
 	    }, {
         "project": "MapQuest.com rewrite",
-        "tech": ["Scala", "Play", "Javascript", "AngularJS", "CSS/LESS", "Jasmine"],
+        "tech": ["Scala", "Play", "JavaScript", "AngularJS", "CSS/less", "Jasmine"],
         "description": ""
       }]
     },
@@ -63,7 +63,11 @@
       "location": "Englewood, CO",
       "start": "December 2010",
       "end": "June 2012",
-      "responsibilities": [],
+      "responsibilities": [
+        "Debugged and extended sales and inventory reporting software.",
+        "Converted business logic from a VB6 application to VB.NET.",
+        "Developed web and mobile applications to expand into more markets."
+      ],
       "projects": [{
         "project": "Restaurant management reports module",
         "tech": ["VB6", "VB.NET", "C#", "WPF"],
@@ -87,19 +91,19 @@
     "resume": {
       "repo": "https://github.com/neumaics/resume",
       "link": "https://resume.neumaics.com",
-      "description": "",
-      "technologies": []
+      "description": "Converts json to a printer friendly resume",
+      "technologies": ["Express", "pug", "Sass", "gulp", "JavaScript"]
     },
     "resono": {
       "repo": "https://github.com/neumaics/resono",
-      "description": "",
-      "technologies": []
+      "description": "Podcast library manager and player",
+      "technologies": ["Electron", "React", "Redux", "less", "gulp", "JavaScript"]
     },
     "moneta": {
       "repo": "https://github.com/neumaics/moneta",
       "link": "https://moneta.neumaics.com",
-      "description": "",
-      "technologies": []
+      "description": "Cryptocurrency price comparison exercise application",
+      "technologies": ["Express", "React", "less", "gulp", "JavaScript"]
     }
   },
   "skills": [

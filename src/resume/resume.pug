@@ -1,0 +1,13 @@
+include ../header/header.pug
+include ../contact/contact.pug
+include ../employment/employment.pug
+include ../education/education.pug
+include ../projects/projects.pug
+
+mixin resume(name, title, contact, employment, education, certificates, projects, skills)
+  .resume-sheet
+    +header(name, title)
+    +contact(contact)
+    +employment(employment)
+    +education(education, certificates)
+    +projects(projects)

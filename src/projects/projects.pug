@@ -1,0 +1,12 @@
+mixin projects(projectList)
+  h2.major-section-title
+    span Projects
+  .project-container
+    ul
+      each project, name in projectList
+        li
+          .project
+            span= name
+            span= project.description
+            span= project.link 
+            span #{project.technologies.join(', ')}

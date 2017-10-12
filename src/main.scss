@@ -1,9 +1,11 @@
 @import './style/typography';
 @import './style/responsive';
+@import './resume/resume';
 @import './header/header';
 @import './contact/contact';
 @import './employment/employment';
 @import './education/education';
+@import './projects/projects';
 
 body {
   font-family: $primary-font;
@@ -17,30 +19,30 @@ body {
   background-color: #e0e0e0;
 
   @media #{$xs}, #{$sm} {
+    display: inherit;
     max-width: 100%;
     margin: 0;
   }
 }
 
-.resume-sheet {
-  background-color: white;
-  box-shadow: 0 0.5mm 2mm rgba(0,0,0,.3);
-  margin: 10px;
+.circle {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid;
+  position: relative;
+  border-color: #889EB7;
+}
 
-  @media #{$xs}, #{$sm} {
-    border: none;
-    padding: 5px;
-  }
-
-  @media #{$md}, #{$lg}, #{$xl} {
-    padding: 32px;
-    flex-grow: 1;
-    border: 1px solid #eee;
-    max-width: 48em;
-  }
-
-  @media #{$print} {
-    box-shadow: none;
-    margin: 0;
-  }
+.circle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  border: 1px dotted;
+  border-width: 0 0 0 1px;
+  width: 1px;
+  height: 100px;
 }

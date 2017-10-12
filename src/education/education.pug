@@ -1,11 +1,13 @@
 mixin education(degrees, certs)
   .education-container
-    h2.education-title
+    h2.major-section-title
       span Education
-    ul
-      each degree, school in degrees  
-        li= school
+    .education-section
+      each degree, school in degrees
+        p #{school} - #{degree.location}
+        p #{degree.degree} - #{degree.date}
 
+    span Certificates
     ul
       each cert in certs
         li= cert.certification
