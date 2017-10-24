@@ -12,7 +12,11 @@
 .contact-item {
   padding: 5px 10px;
 
-  > a > i.fa {
-    padding-right: 10px;
+  > a {
+    font-size: smaller;
+
+    > i.fa {
+      padding-right: 10px;
+    }
   }
 }

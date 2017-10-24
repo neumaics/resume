@@ -6,7 +6,16 @@ mixin projects(projectList)
       each project, name in projectList
         li
           .project
-            span= name
-            span= project.description
-            span= project.link 
+            h4= name
+            p= project.description
+            if project.link
+              p
+                a(href=project.link)
+                  i.fa.fa-external-link
+                  span= project.link
+            if project.repo
+              p
+                a(href=project.repo)
+                  i.fa.fa-github-alt
+                  span= project.repo
             span #{project.technologies.join(', ')}
